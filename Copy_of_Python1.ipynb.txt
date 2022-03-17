@@ -1,0 +1,82 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Copy of Python1",
+      "provenance": [],
+      "collapsed_sections": [],
+      "toc_visible": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 403
+        },
+        "id": "YTkrZToLBS9F",
+        "outputId": "6e971035-5e7a-49af-ce5c-90d20be9dd12"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Addition= 11.125350000000001\n",
+            "Subtraction= -4.83893\n",
+            "Multiplication= 25.0895422694\n",
+            "Division= 0.3937803646641126\n",
+            "Power= 9334.78008694542\n",
+            "Modulus= 3.14321\n",
+            "Floor Division= 0.0\n"
+          ]
+        },
+        {
+          "output_type": "error",
+          "ename": "NameError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-6-5795dc8582c3>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      8\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Modulus=\"\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0ma\u001b[0m\u001b[0;34m%\u001b[0m\u001b[0mb\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      9\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Floor Division=\"\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0ma\u001b[0m\u001b[0;34m//\u001b[0m\u001b[0mb\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 10\u001b[0;31m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Squareroot=\"\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0msqrt\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0ma\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m: name 'sqrt' is not defined"
+          ]
+        }
+      ],
+      "source": [
+        "a=3.14321\n",
+        "b=7.98214\n",
+        "print(\"Addition=\",a+b)\n",
+        "print(\"Subtraction=\",a-b)\n",
+        "print(\"Multiplication=\",a*b)\n",
+        "print(\"Division=\",a/b)\n",
+        "print(\"Power=\",a**b)\n",
+        "print(\"Modulus=\",a%b)\n",
+        "print(\"Floor Division=\",a//b)\n",
+        "print(\"Squareroot=\",sqrt(a))"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "xjiX-uhVH_XF"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
